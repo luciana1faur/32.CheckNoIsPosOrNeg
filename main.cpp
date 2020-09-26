@@ -11,10 +11,11 @@ int main() {
 
   if(a < 0){
     cout << "Numarul este negativ! " << endl;
-    
   }
-  else 
+  else if(a > 0)
     cout << "Numarul este pozitiv! " << endl;
+    else 
+       cout << "Numarul este 0! " << endl;
   return 0;
 }
 //Check whether a number is positive, negative or zero :
